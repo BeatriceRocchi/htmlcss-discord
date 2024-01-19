@@ -1,0 +1,170 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container-large {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #3161e0;
+  padding: 20px 0;
+}
+
+header .container-large {
+  background-color: #6182dd; /* Da eliminare successivamente */
+  display: flex;
+  color: white;
+}
+
+header .logo,
+header .header-btn {
+  width: 20%;
+  border: 1px dashed white; /* Da eliminare successivamente */
+  padding: 10px;
+}
+
+header nav {
+  width: 60%;
+  border: 1px dashed white; /* Da eliminare successivamente */
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.header-btn {
+  text-align: right;
+}
+
+/* HERO  */
+.hero {
+  background-color: #00008b; /* Da eliminare successivamente */
+  padding: 40px 0;
+}
+
+.hero .container-small {
+  background-color: #ee82ee; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  height: 300px; /* Da eliminare successivamente */
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-container .btn-big {
+  margin: 0 10px;
+}
+
+/* MAIN */
+.section-odd {
+  background-color: #ffffff;
+}
+
+.section-even {
+  background-color: #f6f6f6;
+}
+
+.section-study-group,
+.section-voice-channel,
+.section-community,
+.section-download {
+  padding: 40px 0;
+}
+
+.section-study-group .container-large,
+.section-voice-channel .container-large,
+.section-community .container-large {
+  display: flex;
+  height: 400px; /* Da eliminare successivamente */
+}
+
+.section-download .container-large {
+  height: 500px; /* Da eliminare successivamente */
+  background-color: green; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  text-align: center;
+}
+
+.section-image {
+  width: 60%;
+  background-color: #1e90ff; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
+
+.section-text {
+  width: 40%;
+  background-color: #ffc0cb; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
+
+/* FOOTER */
+footer {
+  background-color: #23272a;
+}
+
+.upper-footer {
+  display: flex;
+  height: 400px;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+}
+
+.upper-footer-left {
+  background-color: #f08080; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.upper-footer-right {
+  background-color: #20b2aa; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+  width: 70%;
+  display: flex;
+}
+
+.footer-right-column {
+  border: 1px dashed white; /* Da eliminare successivamente */
+  width: 25%;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #7fffd4; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
+
+.lower-footer .logo,
+.lower-footer .footer-btn {
+  background-color: #ffb6c1; /* Da eliminare successivamente */
+  border: 1px dashed white; /* Da eliminare successivamente */
+}
