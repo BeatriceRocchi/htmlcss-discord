@@ -18,9 +18,23 @@ a {
   color: inherit;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 30px 0;
+  line-height: 1.8rem;
+}
+
 .container-large {
   width: 98%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -75,16 +89,6 @@ nav ul li {
   color: #ffffff;
 }
 
-.hero .container-small h1 {
-  font-size: 3.5rem;
-}
-
-.hero .container-small p {
-  font-size: 1.2rem;
-  padding: 30px 0;
-  line-height: 1.8rem;
-}
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -107,14 +111,15 @@ nav ul li {
 .section-voice-channel,
 .section-community,
 .section-download {
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
 .section-study-group .container-large,
 .section-voice-channel .container-large,
 .section-community .container-large {
   display: flex;
-  height: 400px; /* Da eliminare successivamente */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section-download .container-large {
@@ -126,14 +131,10 @@ nav ul li {
 
 .section-image {
   width: 60%;
-  background-color: #1e90ff; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
 }
 
 .section-text {
-  width: 40%;
-  background-color: #ffc0cb; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
+  width: 30%;
 }
 
 /* FOOTER */
