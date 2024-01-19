@@ -124,10 +124,17 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 #section-technology .container-large {
   text-align: center;
+}
+
+#section-technology .container-large h2,
+#section-technology .container-large p {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .section-image {
