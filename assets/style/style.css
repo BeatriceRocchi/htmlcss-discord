@@ -152,48 +152,62 @@ nav ul li {
 /* FOOTER */
 footer {
   background-color: #23272a;
+  color: #ffffff;
+  font-size: 0.9rem;
 }
 
 .upper-footer {
   display: flex;
-  height: 400px;
-  padding: 20px 0;
-  border-bottom: 2px solid white;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #7289db;
 }
 
 .upper-footer-left {
-  background-color: #f08080; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
-  display: flex;
-  flex-direction: column;
-  width: 30%;
+  width: 20%;
 }
 
 .upper-footer-right {
-  background-color: #20b2aa; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
   width: 70%;
   display: flex;
+  justify-content: space-around;
 }
 
-.footer-right-column {
-  border: 1px dashed white; /* Da eliminare successivamente */
-  width: 25%;
+.footer-right-column .column-title {
+  color: #7289db;
+  font-weight: bold;
+}
+
+.footer-right-column li {
+  margin: 8px 0;
 }
 
 .lower-footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #7fffd4; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
 }
 
-.lower-footer .logo,
-.lower-footer .footer-btn {
-  background-color: #ffb6c1; /* Da eliminare successivamente */
-  border: 1px dashed white; /* Da eliminare successivamente */
+.upper-footer h3 {
+  color: #7289db;
+}
+
+.upper-footer #language {
+  margin: 20px 0;
+}
+
+.upper-footer #flag-icon {
+  height: 15px;
+  line-height: 0.9rem;
+  vertical-align: middle;
+}
+
+.upper-footer #social i {
+  padding-right: 15px;
+  font-size: 1rem;
 }
 
 /* BUTTON & ICONS*/
